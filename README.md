@@ -1,4 +1,5 @@
 # Welcome to your my app 👋
+###### Created by SAUMYA DELIWALA
 
 
 # Watchlist App -> React Native - expo
@@ -66,8 +67,7 @@ I focused on making the app fast and simple, with room to add more features in t
 * Clean, simple design with room to add features
 
 
-Created by SAUMYA DELIWALA
-
+------
 For feedback, email me at [saumyadeliwala@gmail.com](mailto:saumyadeliwala@gmail.com).
 
 LinkedIn [https://www.linkedin.com/in/saumya-deliwala/](https://www.linkedin.com/in/saumya-deliwala/).
