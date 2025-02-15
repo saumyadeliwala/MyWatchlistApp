@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+# Welcome to your my app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+# Watchlist App -> React Native - expo
+
+This is a simple React Native app for viewing stock watchlists with a tabbed layout. It shows stock prices, price changes, and market info in an easy-to-read format.
+
+---
+
+## What It Does
+- Shows 4 watchlists in tabs (Watchlist 1 to 4)
+- Lists stocks with:
+  - Name and market (NSE | EQ)
+  - Current price (green for up, red for down)
+- Custom tab bar that highlights the active tab
+- Works on any screen size
+
+---
+
+## My Approach
+I wanted to build a clean, easy-to-use app for viewing stock watchlists. I started by:
+- Breaking the app into small parts: one for the main screen, one for the stock list, and one for the tabs.
+- Using tabs to let users switch between watchlists, keeping the layout simple.
+- Making sure it works on any screen size by adjusting the tab width automatically.
+- Showing price changes in green (up) or red (down) for quick understanding.
+- Keeping the data static for now, but designing it to be easy to connect to live data later.
+I focused on making the app fast and simple, with room to add more features in the future.
+---
+
+## How It’s Built
+
+### Main Parts
+1. **WatchlistScreen**
+   - Main screen with the heading and tabs
+   - Handles switching between tabs
+   - Uses `TabView` for navigation
+
+2. **Watchlist_tab**
+   - Shows the stock list for each tab
+   - Uses `FlatList` for smooth scrolling
+   - Colors price changes (green = up, red = down)
+
+3. **CustomTabBar**
+   - Custom tab bar that fits the screen width
+   - Highlights active tab with bold text and a line below
+
+### Data
+- Uses a static `stocks` array with name, price, change, and color
+- Easy to swap with live data later
+
+---
 
 ## Get started
-
 1. Install dependencies
-
    ```bash
    npm install
    ```
-
-2. Start the app
-
-   ```bash
+2. Run the app:
+     ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Notes
+* Uses static data for now (not live)
+* Works on both Android and iOS
+* Clean, simple design with room to add features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Created by SAUMYA DELIWALA
 
-## Get a fresh project
+For feedback, email me at [saumyadeliwala@gmail.com](mailto:saumyadeliwala@gmail.com).
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+LinkedIn [https://www.linkedin.com/in/saumya-deliwala/](https://www.linkedin.com/in/saumya-deliwala/).
