@@ -12,7 +12,7 @@ const stocks = [
     { name: "ADANIENT", price: "3,500.00", change: "+1.60 (+0.06%)", color: "green" },
     { name: "PAYTM", price: "500.00", change: "-5.35 (-0.12%)", color: "red" },
     { name: "NYKAA", price: "1,000.00", change: "+8.95 (+0.08%)", color: "green" },
-    { name: "ASIANPAINT", price: "3,000.00", change: "", color: "black" },
+    { name: "ASIANPAINT", price: "3,000.00", change: "", color: "red" },
 ];
 
 //Watchst component
